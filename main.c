@@ -44,7 +44,7 @@ int main(void) {
     }
 }
 
-// Function to initialize UART0 for serial communication
+// Function to initialize UART0 for serial communication (Logic added by User 2)
 void UART0_Init(void) {
     SYSCTL_RCGCUART_R |= 0x01;   // Enable clock to UART0
     SYSCTL_RCGCGPIO_R |= 0x01;   // Enable clock to PORTA
